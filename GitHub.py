@@ -2,8 +2,13 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+# matplotlib 한글 폰트
+plt.rcParams['font.family'] ='Malgun Gothic'
+plt.rcParams['axes.unicode_minus'] =False
+
 # 이미지 불러오기
-image_bring = 'korea.jpg'
+image_start = input()
+image_bring = image_start
 image = cv2.imread(image_bring)
 
 # 이미지를 HSV 색상으로 변환
