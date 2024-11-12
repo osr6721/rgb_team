@@ -7,6 +7,7 @@ plt.rcParams['font.family'] = 'Malgun Gothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 # 이미지 불러오기
+color_blindness = input("색맹의 종류를 입력하세요: ")
 image_start = input("이미지 파일 경로를 입력하세요: ")
 image_bring = image_start
 image = cv2.imread(image_bring)
