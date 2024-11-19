@@ -1,3 +1,5 @@
+#20416 오상렬 틀 제작
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
