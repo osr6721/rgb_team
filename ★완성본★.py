@@ -29,7 +29,7 @@ def add_text_to_masked_area(image, mask, text, text_color=(0, 0, 0)):
         )
 
 # 이미지 불러오기
-blindness = input("색맹의 종류를 입력하세요(적색맹, 녹색맹, 청색맹, 전색맹): ")
+blindness = input("색맹의 종류를 입력하세요(적색맹, 녹색맹, 청색맹): ")
 image_start = input("이미지 파일 경로를 입력하세요: ")
 image_bring = image_start
 image = cv2.imread(image_bring)
